@@ -62,7 +62,7 @@
 
 			<div class="container banner-brand">
 				<div class="col-md-6">
-					<img src="/wp-content/uploads/2015/01/brand.png" alt="Site logo">
+					<img class="img-responsive" src="/wp-content/uploads/2015/01/brand.png" alt="Site logo">
 				</div>
 				<div class="col-md-6">
 					<h1>The rank-and-file website that UPS doesn’t want you to read</h1>
