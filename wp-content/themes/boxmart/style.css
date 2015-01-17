@@ -1,0 +1,65 @@
+body {
+  background-color: #000;
+  background-image: url(images/bg.body.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+h1, h2, h3, h4 {
+  font-family: 'Patrick Hand SC', sans-serif;
+  color: #fce04b;
+}
+h2 {
+  font-size: 48px;
+}
+a {
+  color: #fce04b;
+}
+#main article {
+  padding: 20px;
+}
+.main article {
+  background: #000;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #512c21;
+}
+.main article img {
+  float: right;
+  padding-left: 15px;
+}
+.banner-brand {
+  margin: 10px auto 20px auto;
+}
+.banner-brand h3 {
+  font-size: 40px;
+}
+.hero {
+  background: #713220;
+}
+.navbar {
+  background: #361b14;
+  border: none;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > .active > a {
+  background: transparent;
+  color: #fce04b;
+  font-family: 'Patrick Hand SC', sans-serif;
+  font-size: 30px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background: #673426;
+  color: #fce04b;
+}
+@media (min-width: 768px) {
+  .navbar-nav-secondary {
+    float: right;
+  }
+}
+@media (min-width: 1200px) {
+  .container { width: 970px; }
+}
