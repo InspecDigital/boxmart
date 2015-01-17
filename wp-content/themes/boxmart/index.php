@@ -1,5 +1,6 @@
 <?php get_header(); ?>
   <div id="content" class="clearfix row">
+    <div class="container">
     <div id="main" class="<?php if(is_front_page()){echo 'main ';} ?>clearfix" role="main">
 
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -40,5 +41,6 @@
       <?php endif; ?>
     </div> <!-- end #main -->
     <?php //if(!is_front_page()) { get_sidebar(); } // sidebar 1 ?>
+  </div>
   </div> <!-- end #content -->
 <?php get_footer(); ?>

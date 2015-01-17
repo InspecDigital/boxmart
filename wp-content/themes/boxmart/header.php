@@ -71,10 +71,10 @@
 
 		<?php if(is_front_page()) { ?>
 			<div class="hero container hero-container">
-				<h1>Hero</h1>
+				<div class="hero-content">
+					<h1>Hero</h1>
+				</div>
 			</div>
 		<?php } ?>
 
 		</header> <!-- end header -->
-
-		<div class="container">
