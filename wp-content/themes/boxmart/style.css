@@ -30,19 +30,20 @@ a {
   background:rgba(0,0,0,0.5);
 }
 
+/* Button overloads. Use ! important to defeat WP core styles */
 .btn-default,
 .btn-primary,
 .submit {
-  background: #fce04b;
-  border-color: #fce04b;
-  color: #361b14;
+  background: #fce04b ! important;
+  border-color: #fce04b ! important;
+  color: #361b14 ! important;
 }
 .btn-default:hover,
 .btn-primary:hover,
 .submit:hover {
-  background: #fff1a5;
-  border-color: #fce04b;
-  color: #361b14;
+  background: #fff1a5 ! important;
+  border-color: #fce04b ! important;
+  color: #361b14 ! important;
 }
 .footer {
   background: #361b14;
