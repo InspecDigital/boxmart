@@ -79,8 +79,9 @@
 						<p>This is where static homepage information will be. A brief and effective message for the audience.</p>
 					</div>
 
-					<div class="mailing-list col-md-4">
-						<h2>Join our mailing list!</h2>
+					<div class="mailing-list col-md-4 text-center">
+						<h2>Interested?</h2>
+						<a href="/?page_id=20" class="btn btn-default btn-lg cta-submit">Get in touch</a>
 					</div>
 				</div>
 			</div>
