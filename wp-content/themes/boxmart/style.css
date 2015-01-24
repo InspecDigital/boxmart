@@ -90,6 +90,10 @@ a {
   float: left;
   border: 2px solid #361b14;
 }
+.home .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 .navbar {
   background: #361b14;
   border: none;
