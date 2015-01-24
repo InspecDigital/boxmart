@@ -2,8 +2,8 @@
 
 body {
   background-color: #000;
-  background-image: url(images/bg.body.jpg);
-  background-size: cover;
+  background-image: url(http://screwups-dev.inspecdigital.org/wp-content/uploads/2015/01/bkgd.jpg);
+  background-size: container;
   background-repeat: no-repeat;
   background-position: center;
   color: #fff;
