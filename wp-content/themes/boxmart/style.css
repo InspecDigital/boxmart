@@ -5,7 +5,7 @@ body {
   background-image: url(http://screwups-dev.inspecdigital.org/wp-content/uploads/2015/01/bkgd.jpg);
   background-size: container;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   color: #fff;
 }
 h1, h2, h3, h4 {
