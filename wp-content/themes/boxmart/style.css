@@ -21,14 +21,25 @@ h2 {
 a {
   color: #fce04b;
 }
+
+.bg-color-primary {
+  background:rgba(130,55,35,0.8);
+}
+
+.bg-color-secondary {
+  background:rgba(0,0,0,0.5);
+}
+
 .btn-default,
-.btn-primary {
+.btn-primary,
+.submit {
   background: #fce04b;
   border-color: #fce04b;
   color: #361b14;
 }
 .btn-default:hover,
-.btn-primary:hover {
+.btn-primary:hover,
+.submit:hover {
   background: #fff1a5;
   border-color: #fce04b;
   color: #361b14;
@@ -63,9 +74,9 @@ a {
   padding: 20px;
 }
 .hero-wrapper {
-  background: #713220;
   position: relative;
   float: left;
+  border: 2px solid #361b14;
 }
 .navbar {
   background: #361b14;
@@ -87,16 +98,6 @@ a {
   background: #673426;
   color: #fce04b;
 }
-
-.bgcolorprimary {
-background:rgba(130, 55, 35, 0.8);
-
-}
-
-.bgcolorsecondary {
-  background:rgba(0, 0, 0, 0.8);
-}
-
 
 @media (min-width: 768px) {
   .navbar-nav-secondary {
