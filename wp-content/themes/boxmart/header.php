@@ -55,6 +55,14 @@
 					<div class="collapse navbar-collapse navbar-responsive-collapse">
 						<?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
 						<?php wp_bootstrap_secondary_nav(); // Adjust using Menus in Wordpress Admin ?>
+						<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+							<div class="input-group">
+								<input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="<?php _e('Search','wpbootstrap'); ?>">
+								<span class="input-group-btn">
+					        <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+					      </span>
+							</div>
+						</form>
 					</div>
 
 				</div> <!-- end .container -->

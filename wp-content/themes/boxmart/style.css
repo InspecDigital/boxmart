@@ -94,6 +94,9 @@ a {
   border: none;
   border-bottom: 2px solid #000;
 }
+.navbar .navbar-form {
+  margin-top: 12px;
+}
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > .active > a {
   background: transparent;
