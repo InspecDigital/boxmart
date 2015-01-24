@@ -58,8 +58,6 @@ a {
 .navbar {
   background: #361b14;
   border: none;
-  vertical-align: top;
-  line-height: 1em;
 }
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > .active > a {
@@ -77,6 +75,17 @@ a {
   background: #673426;
   color: #fce04b;
 }
+
+.bgcolorprimary {
+background:rgba(130, 55, 35, 0.8);
+
+}
+
+.bgcolorsecondary {
+  background:rgba(0, 0, 0, 0.8);
+}
+
+
 @media (min-width: 768px) {
   .navbar-nav-secondary {
     float: right;
