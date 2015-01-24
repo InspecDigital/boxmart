@@ -21,8 +21,16 @@ h2 {
 a {
   color: #fce04b;
 }
-.btn-default {
+.btn-default,
+.btn-primary {
   background: #fce04b;
+  border-color: #fce04b;
+  color: #361b14;
+}
+.btn-default:hover,
+.btn-primary:hover {
+  background: #fff1a5;
+  border-color: #fce04b;
   color: #361b14;
 }
 .footer {
