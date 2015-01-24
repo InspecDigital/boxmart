@@ -52,8 +52,12 @@ a {
   font-size: 40px;
 }
 .hero-content {
-  background: #713220;
   padding: 20px;
+}
+.hero-wrapper {
+  background: #713220;
+  position: relative;
+  float: left;
 }
 .navbar {
   background: #361b14;

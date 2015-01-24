@@ -60,9 +60,11 @@
 				</div> <!-- end .container -->
 			</div> <!-- end .navbar -->
 
+
+
 			<div class="container banner-brand">
 				<div class="col-md-6">
-					<img class="img-responsive" src="/wp-content/uploads/2015/01/brand.png" alt="Site logo">
+					<img class="img-responsive" src="/wp-content/uploads/2015/01/logo.png" alt="Site logo">
 				</div>
 				<div class="col-md-6">
 					<h1>The rank-and-file website that UPS doesn’t want you to read</h1>
@@ -71,8 +73,15 @@
 
 		<?php if(is_front_page()) { ?>
 			<div class="hero container hero-container">
-				<div class="hero-content">
-					<h1>Hero</h1>
+				<div class="hero-wrapper">
+					<div class="hero-content col-md-8">
+						<h1>This is the Hero Header</h1>
+						<p>This is where static homepage information will be. A brief and effective message for the audience.</p>
+					</div>
+
+					<div class="mailing-list col-md-4">
+						<h2>Join our mailing list!</h2>
+					</div>
 				</div>
 			</div>
 		<?php } ?>
