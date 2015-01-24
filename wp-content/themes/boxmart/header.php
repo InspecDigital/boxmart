@@ -73,7 +73,7 @@
 
 		<?php if(is_front_page()) { ?>
 			<div class="hero container hero-container">
-				<div class="hero-wrapper">
+				<div class="hero-wrapper bg-color-primary">
 					<div class="hero-content col-md-8">
 						<h1>This is the Hero Header</h1>
 						<p>This is where static homepage information will be. A brief and effective message for the audience.</p>
