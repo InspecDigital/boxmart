@@ -21,6 +21,10 @@ h2 {
 a {
   color: #fce04b;
 }
+a:hover {
+  color: #fff1a5;
+  text-decoration: none;
+}
 
 .bg-color-primary {
   background:rgba(130,55,35,0.8);
